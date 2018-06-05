@@ -1,0 +1,15 @@
+section.about(class=' section' data-section='about')
+  .about__wrapper
+    h2.about__title(class=' animate' data-animation='fadeInRight')
+      | Обо мне
+    p.about__image
+      img(src="img/cook.jpg" width="250" height="250" alt="фото автора")
+    picture
+      source(media="(min-width: 1250px)" srcset="img/-desktop@1x.jpg 1x, img/-desktop@2x.jpg 2x")
+      source(media="(min-width: 768px)" srcset="img/-tablet@1x.jpg 1x, img/-tablet@2x.jpg 2x")
+      img(src="img/-mobile@1x.jpg" alt="" srcset="img/-mobile@2x.jpg 2x")
+    p.about__text
+      | В данный момент живу в г. Уфа и нахожусь в поиске интересных предложений для профессионального роста и развития в данной сфере. Готов к переезду в другой город.
+    a.about__link(href="resume/resume.pdf")
+      span
+        | Посмотреть резюме

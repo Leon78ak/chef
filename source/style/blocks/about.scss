@@ -1,0 +1,70 @@
+.about {
+  height: 100vh;
+  margin-bottom: 20px;
+
+  @include tablets {
+    margin-bottom: 30px;
+  }
+}
+
+.about__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  width: auto;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @include tablets {
+    width: 708px;
+    padding: 0 30px;
+  }
+
+  @include desktop {
+    width: 1000px;
+    padding: 0 40px;
+  }
+}
+
+.about__image {
+
+  @include mobile {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  @include tablets {
+    order: 0;
+
+    margin-right: 10%;
+    margin-bottom: 30px;
+  }
+}
+
+.about__title {
+  @include section-title();
+}
+
+.about__text {
+  width: 100%;
+  margin-bottom: $font-size;
+
+  @include tablets {
+    width: 50%;
+  }
+}
+
+.about__link {
+  color: $link-color;
+  cursor: pointer;
+
+  &:active {
+    color: $link-color--active;
+  }
+}
+
+.about__link:hover span,
+.about__link:focus span {
+  border-bottom: 1px solid currentColor;
+}

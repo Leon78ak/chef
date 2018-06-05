@@ -1,0 +1,45 @@
+include ./blocks/_mixins
+
+doctype html
+html(lang='ru')
+  head
+    meta(charset="utf-8")
+    title start-project
+    meta(content="" name="author")
+    meta(content="" name="description")
+    meta(content="" name="keywords")
+    meta(content="width=device-width, initial-scale=1" name="viewport")
+    meta(content="ie=edge" http-equiv="x-ua-compatible")
+
+    //- favicon block start
+    //- favicon block end
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster")
+    link( rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto")
+
+    //- link(rel="stylesheet" href="jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" type="text/css")
+    link(rel="stylesheet" href="css/main.css")
+
+    //- fancybox
+    script(src="//code.jquery.com/jquery-3.3.1.min.js")
+
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js")
+
+
+
+  body
+
+    include ./blocks/header
+
+    main.page-main
+
+      include ./blocks/about
+
+      include ./blocks/portfolio
+
+    include ./blocks/footer
+
+    //- script(src="js/jquery-1.12.0.min.js")
+    script(src="js/custom.js")
+
+    script(src="js/main.js")

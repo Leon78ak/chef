@@ -1,0 +1,48 @@
+.portfolio {
+  margin-bottom: 20px;
+
+  @include tablets {
+    margin-bottom: 30px;
+  }
+}
+
+.portfolio__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @include tablets {
+    justify-content: flex-start;
+
+    // width: 708px;
+    padding: 0 30px;
+  }
+
+  @include desktop {
+    // width: 1000px;
+    padding: 0 40px;
+  }
+}
+
+.portfolio__title {
+  @include section-title();
+
+  @include tablets {
+    width: 708px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  @include desktop {
+    width: 1000px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
