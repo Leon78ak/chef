@@ -2,9 +2,9 @@
 
 var navMain = document.querySelector('.main-nav');
 var navToggle = document.querySelector('.main-nav__toggle');
-var overlay = document.querySelector('.overlay');
-var ESC_KEYCODE = 27;
-var ENTER_KEYCODE = 13;
+// var overlay = document.querySelector('.overlay');
+// var ESC_KEYCODE = 27;
+// var ENTER_KEYCODE = 13;
 
 navMain.classList.remove('main-nav--no-js');
 
@@ -14,15 +14,8 @@ navToggle.addEventListener('click', function() {
     navMain.classList.add('main-nav--opened');
     navToggle.blur();
   } else {
-    navMain.classList.add('main-nav--closed');
     navMain.classList.remove('main-nav--opened');
+    navMain.classList.add('main-nav--closed');
     navToggle.blur();
   }
 });
-
-//for example
-window.onscroll = function () {
-  var wScroll = window.pageYOffset;
-
-  console.log(wScroll);
-}

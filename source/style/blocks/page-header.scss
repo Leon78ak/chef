@@ -1,13 +1,4 @@
 .page-header {
-  height: 100vh;
-  background-color: black;
-  background-image: url("../img/blackOlives.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.page-header {
   box-sizing: border-box;
   display: flex;
 
@@ -24,12 +15,15 @@
 
 .page-header__wrapper {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 
   width: auto;
   margin: 0 auto;
   padding: 0 20px;
 
   @include tablets {
+    flex-direction: row;
     width: 708px;
   }
 
@@ -60,8 +54,8 @@
   padding-top: 10px;
 
   font-family: $font-title;
-  font-size: 50px;
-  line-height: 62px;
+  font-size: $font-size--h1;
+  line-height: $line-height;
 
   letter-spacing: 2.7px;
 
@@ -71,7 +65,7 @@
 
     padding-top: 10px;
 
-    font-size: 24px;
+    font-size: $font-size--h3;
     color: $red;
   }
 

@@ -1,0 +1,53 @@
+.contacts {
+  @include section-bottom();
+}
+
+.contacts__wrapper {
+  @include section-wrapper();
+}
+
+.contacts__subtitle {
+  width: 100%;
+  margin-bottom: 40px;
+
+  font-family: $font;
+  // font-size: $font-size;
+  color: $white;
+
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+
+  @include tablets {
+    margin-bottom: 40px;
+  }
+
+  @include tablets {
+    margin-bottom: 50px;
+  }
+}
+
+.contacts__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+
+  @include desktop {
+    width: 60%;
+  }
+}
+
+.contacts__inner-block {
+  width: 100%;
+
+  @include tablets {
+    width: 50%;
+  }
+
+  @include tablets {
+  }
+}
+

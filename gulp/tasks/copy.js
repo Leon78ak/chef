@@ -6,7 +6,8 @@ module.exports = function () {
     'source/fonts/**/*.{woff,woff2}',
     'source/img/**/*.{png,jpg}',
     'source/resume/**/*.{doc,pdf}',
-    'source/jquery.fancybox-1.3.4/**/*'
+    'source/jquery.fancybox-1.3.4/**/*',
+    'source/wow-animation/**/*'
     ], {
       base: 'source'
     })

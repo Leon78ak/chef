@@ -17,6 +17,10 @@ module.exports = function () {
             '> 1%'
           ]
         }))
+      // .pipe($.gp.cssUnit({
+      //   type: 'px-to-rem',
+      //   rootSize: 16
+      // }))
       .pipe($.gp.sourcemaps.write())
       .pipe($.gulp.dest('./build/css'))
       .pipe($.browserSync.stream());

@@ -60,11 +60,39 @@
   letter-spacing: 0.2em;
 
   @include tablets {
-    margin-top: 40px;
     margin-bottom: 30px;
 
     text-align: left;
+  }
+}
 
-    font-size: 50px;
+@mixin section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @include tablets {
+    padding: 0 30px;
+  }
+
+  @include desktop {
+    padding: 0 40px;
+  }
+}
+
+@mixin section-bottom {
+  margin-bottom: 20px;
+
+  @include tablets {
+    margin-bottom: 30px;
+  }
+
+  @include tablets {
+    margin-bottom: 40px;
   }
 }
