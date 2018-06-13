@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>start-project</title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="wow-animation/animate.min.css">
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="page-header__wrapper">
+            <nav class="main-nav  main-nav--closed  main-nav--no-js">
+                <button class="main-nav__toggle" type="button"><span>Открыть меню</span></button>
+                <div class="main-nav__container">
+                    <ul class="main-nav__list">
+                        <li class="main-nav__item"><a class="main-nav__link" href="#about" data-hover="Обо мне">Обо мне</a></li>
+                        <li class="main-nav__item"><a class="main-nav__link" href="#portfolio" data-hover="Портфолио">Портфолио</a></li>
+                        <li class="main-nav__item"><a class="main-nav__link" href="#contacts" data-hover="Контакты">Контакты</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="page-header__container">
+                <h1 class="page-header__title">Александр Кокорев<span class="page-header__title--highlight">Вкусный повар</span></h1>
+            </div>
+        </div>
+    </header>
+    <main class="page-main">
+        <section class="about  section" data-section="about">
+            <div class="about__wrapper">
+                <h2 class="about__title  wow  fadeInLeft">Обо мне</h2>
+                <p class="about__image">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/cook-mobile-2.jpg 1x, img/-tablet@2x.jpg 2x"><img src="img/cook-mobile@1x.jpg" alt="фото" srcset="img/cook-mobile-2.jpg 2x">
+                    </picture>
+                </p>
+                <div class="about__text-container">
+                    <p class="about__text">Работаю поваром более 15 лет. Имею хорошие базовые знания классической кухни, также знаю и применяю современные техники приготоления и хранения продуктов:</p>
+                    <p class="about__text">низкотемпературные методы приготовления, работа с вакууматором, заморозка азотом, работа с сифоном, термомиксом. Люблю сочетание в блюде контрастных текстур.Знаю и требую от персонала кухни соблюдение санитарных норм и правил</p>
+                </div><a class="about__link" href="resume/resume.pdf"><span>Посмотреть резюме</span></a>
+            </div>
+        </section>
+        <section class="portfolio  section" data-section="portfolio">
+            <h2 class="portfolio__title  wow  fadeInRight">Портфолио</h2>
+            <div class="portfolio__wrapper">
+                <ul class="product">
+                    <li class="product__item  wow fadeInUp" data-wow-delay="0s"><a class="product__link" data-fancybox="gallery" href="img/alarus-2.jpg"><img src="img/alarus.jpg" width="750" height="500" alt=" медовый десерт"></a></li>
+                    <li class="product__item  wow fadeInUp" data-wow-delay="0.2s"><a class="product__link" data-fancybox="gallery" href="img/burger-2.jpg"><img src="img/burger.jpg" width="750" height="500" alt=" бургер"></a></li>
+                    <li class="product__item  wow fadeInUp" data-wow-delay="0.4s"><a class="product__link" data-fancybox="gallery" href="img/carpaccho-2.jpg"><img src="img/carpaccho.jpg" width="750" height="500" alt=" карпаччо из гребешка"></a></li>
+                    <li class="product__item  wow fadeInUp" data-wow-delay="0.6000000000000001s"><a class="product__link" data-fancybox="gallery" href="img/duck-beet-2.jpg"><img src="img/duck-beet.jpg" width="750" height="500" alt=" утка, свекла, яблоки"></a></li>
+                    <li class="product__item  wow fadeInUp" data-wow-delay="0.8s"><a class="product__link" data-fancybox="gallery" href="img/horse-2.jpg"><img src="img/horse.jpg" width="750" height="500" alt=" конина томленая с пшеницей"></a></li>
+                    <li class="product__item  wow fadeInUp" data-wow-delay="1s"><a class="product__link" data-fancybox="gallery" href="img/salad-horse-2.jpg"><img src="img/salad-horse.jpg" width="750" height="500" alt=" салат из конины"></a></li>
+                    <li class="product__item  wow fadeInUp" data-wow-delay="1.2s"><a class="product__link" data-fancybox="gallery" href="img/sterlad-2.jpg"><img src="img/sterlad.jpg" width="750" height="500" alt=" стерлядь с пюре"></a></li>
+                    <li class="product__item  wow fadeInUp" data-wow-delay="1.4s"><a class="product__link" data-fancybox="gallery" href="img/stroganina-2.jpg"><img src="img/stroganina.jpg" width="750" height="500" alt=" строганина муксун"></a></li>
+                    <li class="product__item  wow fadeInUp" data-wow-delay="1.5999999999999999s"><a class="product__link" data-fancybox="gallery" href="img/tapas-2.jpg"><img src="img/tapas.jpg" width="750" height="500" alt=" тапас-сэт"></a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <section class="contacts  section" data-section="contacts">
+            <div class="contacts__wrapper">
+                <h2 class="contacts__title visually-hidden">Контакты</h2>
+                <h3 class="contacts__subtitle  wow  fadeInRight">Связаться со мной</h3>
+                <div class="contacts__inner">
+                    <div class="block-link  contacts__inner-block"><span class="block-link__header">телефон:</span><a href="tel:+7 (917) 490-46-94">+7 (917) 490-46-94</a></div>
+                    <div class="block-link  contacts__inner-block"><span class="block-link__header">почта:</span><a href="mailto:ak_78leon@mail.ru">ak_78leon@mail.ru</a></div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
+    <script src="wow-animation/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
