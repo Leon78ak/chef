@@ -47,6 +47,8 @@
   color: $link-color;
   cursor: pointer;
 
+  white-space: nowrap;
+
   &:active {
     color: $link-color--active;
   }
