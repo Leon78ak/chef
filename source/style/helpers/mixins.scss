@@ -86,13 +86,13 @@
 }
 
 @mixin section-bottom {
-  margin-bottom: 20px;
+  margin-bottom: 10vh;
 
   @include tablets {
-    margin-bottom: 30px;
+    margin-bottom: 15vh;
   }
 
-  @include tablets {
-    margin-bottom: 40px;
+  @include desktop {
+    margin-bottom: 20vh;
   }
 }

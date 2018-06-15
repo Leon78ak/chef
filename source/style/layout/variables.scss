@@ -7,11 +7,13 @@ $retina-dppx: 1.5dppx;
 // Базовые цвета https://colorscheme.ru/color-converter.html
 
 $white:                    #ffffff;
-$black:                    #000000;
+$black:                    #545454;
 $red:                      #e75b1e;
 $green:                    #04C2C9;
 
 $body-bg:                  $red;
+
+$line-color:               #3d4246;
 
 $link-color:               $green;
 $link-color--active:       lighten($link-color, 20%);
