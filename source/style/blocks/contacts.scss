@@ -23,7 +23,7 @@
 
 .contacts__subtitle {
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 10vh;
 
   font-family: $font;
   // font-size: $font-size;
@@ -33,13 +33,13 @@
   text-transform: uppercase;
   letter-spacing: 0.2em;
 
-  @include tablets {
-    margin-bottom: 40px;
-  }
+  // @include tablets {
+  //   margin-bottom: 40px;
+  // }
 
-  @include tablets {
-    margin-bottom: 50px;
-  }
+  // @include tablets {
+  //   margin-bottom: 50px;
+  // }
 }
 
 .contacts__inner {

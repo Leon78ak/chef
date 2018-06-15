@@ -30,7 +30,7 @@
 
 .about__text-container {
   width: 100%;
-  margin-bottom: $font-size;
+  margin-bottom: 1em;
 
   @include tablets {
     width: 50%;
@@ -41,6 +41,8 @@
 }
 
 .about__link {
+  display: block;
+
   font-size: inherit;
   color: $link-color;
   cursor: pointer;
