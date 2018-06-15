@@ -43,9 +43,11 @@
 .about__link {
   display: block;
 
-  font-size: 1em;
+  font-size: $font-size;
   color: $link-color;
   cursor: pointer;
+
+  margin-bottom: $font-size;
 
   white-space: nowrap;
 
