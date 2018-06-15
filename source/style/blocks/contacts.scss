@@ -1,7 +1,9 @@
 .contacts {
   position: relative;
 
+  margin-top: 15vh;
   margin-bottom: 5vh;
+  padding-bottom: 5vh;
 
   &::after {
     content: "";
@@ -26,20 +28,12 @@
   margin-bottom: 10vh;
 
   font-family: $font;
-  // font-size: $font-size;
+  font-size: $font-size--h3;
   color: $white;
 
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-
-  // @include tablets {
-  //   margin-bottom: 40px;
-  // }
-
-  // @include tablets {
-  //   margin-bottom: 50px;
-  // }
 }
 
 .contacts__inner {
@@ -49,6 +43,7 @@
   justify-content: space-between;
 
   width: 100%;
+  margin-bottom: 10vh;
 
   @include desktop {
     width: 60%;
