@@ -25,17 +25,17 @@ $(document).ready(function() {
 
 });
 
-var animationActions = {
-  fadeInRight: function () {
-    $(this).addClass('fadeInRight');
-  },
-  fadeInLeft: function () {
-    $(this).addClass('fadeInLeft');
-  },
-  fadeInDown: function () {
-    $(this).addClass('fadeInDown');
-  }
-};
+// var animationActions = {
+//   fadeInRight: function () {
+//     $(this).addClass('fadeInRight');
+//   },
+//   fadeInLeft: function () {
+//     $(this).addClass('fadeInLeft');
+//   },
+//   fadeInDown: function () {
+//     $(this).addClass('fadeInDown');
+//   }
+// };
 
 $(window).scroll(function() {
   var scrollTop = $(window).scrollTop();

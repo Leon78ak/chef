@@ -48,4 +48,7 @@ html(lang='ru')
 
     script(src="wow-animation/wow.min.js")
     script
-      | new WOW().init();
+      | var wow = new WOW({
+      | offset: 200
+      | })
+      | wow.init();
