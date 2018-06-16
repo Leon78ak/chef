@@ -137,6 +137,15 @@
   transform: rotate3d(0,0,1,45deg)
 }
 
+.main-nav__item {
+
+  margin-bottom: 5vh;
+
+  @include desktop {
+    margin: 0;
+  }
+}
+
 .main-nav--opened .main-nav__toggle span::after {
   transform: rotate3d(0,0,1,-45deg)
 }
